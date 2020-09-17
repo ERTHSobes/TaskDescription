@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  erthsobesservis:
+    image: erthsobes/erthsobesservis
+    ports:
+      - "6500:6500"
